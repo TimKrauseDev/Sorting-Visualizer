@@ -1,0 +1,66 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.remove-all-margin {
+  margin: 0px;
+}
+.remove-all-margin-padding {
+  margin: 0px;
+  padding: 0px;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.range-wrapper {
+  margin: 10px;
+  text-align: center;
+  max-width: 200px;
+}
+
+.nav-container {
+  margin-left: 0px;
+  padding: 0px;
+}
+.nav-hamburger {
+  display: none;
+}
+
+.btn-close {
+  filter: invert(1);
+}
+
+.nav-link {
+  opacity: 0.6;
+}
+
+.nav-link:hover {
+  opacity: 1;
+}
+@media only screen and (max-width: 770px),
+  only screen and (max-device-width: 770px) {
+  .nav-items {
+    display: none;
+  }
+  .nav-hamburger {
+    display: block;
+  }
+  .button-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 450px;
+  }
+
+  .content-wrapper {
+    flex-direction: column !important;
+    gap: 15px;
+
+    & > div {
+      width: 100% !important;
+    }
+  }
+}
