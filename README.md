@@ -14,6 +14,7 @@ View the live version [Here](https://krause-sorting-visualizer.web.app/).
 
 ## Technology Used:
 - React
+- Material UI
 - SCSS
 
 ## Directory 
