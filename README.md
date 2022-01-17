@@ -14,7 +14,7 @@ View the live version [Here](https://krause-sorting-visualizer.web.app/).
 
 ## Technology Used:
 - React
-- React router
+- React Router
 - Bootstrap
 - SCSS
 
