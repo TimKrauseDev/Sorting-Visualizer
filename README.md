@@ -1,25 +1,26 @@
 # Sorting Visualizer
 
-Source code for my [Sorting Visualizer](https://krause-sorting-visualizer.web.app/).
+This sorting visualizer offers users the ability to see the various sorting algorithms in action.
 
-<img width="600" alt="sorting visualizer homepage" src="./src/images/sorting_visualizer_home.PNG">
+![App Screenshot](src/images/sorting_visualizer_home.PNG)
 
-## Overview
+## Demo
 
-This sorting visualizer is a front-end application that allows users to visualize the following sorting algorithms: Bubble, Insertion, Merge, Quick and Selection. You have the ability to sort the array of bars automatically or step-by-step.
-<br />
+https://chatic.timkrause.dev/
 
-<img width="600" alt="merge sort" src="./src/images/merge_sort.gif">
+## Features
 
-## Technology Used
-The technology used to create this portfolio include:
+- **Algoritms**: Explore the visual representation of five different sorting algorithms: Bubble, Insertion, Merge, Quick and Selector Sort
+- **Step Through Time**: Navigate through the steps of the algorithm's process, advancing or reversing to observe the movements in action
+- **Settings**: Control the number of bars being sorted and the speed of sorting with adjustable settings
 
-- React
-- React Router
-- Bootstrap
-- SCSS
+## Screenshots
+
+![App Sorting Gif](src/images/merge_sort.gif)
+
+## Tech Stack
+
+**Client:** React, Boostrap, SCSS
 
 ## Contact
 If you have any questions about my work or if you have any opportunities you think I would be a good fit for, please [contact me](mailto:timkrausedev@gmail.com).
-
-
